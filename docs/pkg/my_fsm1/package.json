@@ -13,9 +13,9 @@
     "github": "edward-jw-yu"
   },
   "license": "Apache-2.0",
-  "repository": "https://github.com/edward-jw-yu/my_fsm1.git",
+  "repository": "https://github.com/edward-jw-yu/my_fsm1",
   "icon": "unknown",
-  "homepage": "https://github.com/edward-jw-yu/my_fsm1.git#readme",
+  "homepage": "https://github.com/edward-jw-yu/my_fsm1#readme",
   "doc": "unknown",
   "site": [
     {
@@ -25,7 +25,7 @@
     },
     {
       "version": "latest",
-      "URL": "https://github.com/edward-jw-yu/my_fsm1.git.git",
+      "URL": "https://github.com/edward-jw-yu/my_fsm1.git",
       "filename": "",
       "VER_SHA": "master"
     }
