@@ -1,0 +1,33 @@
+{
+  "name": "my_fsm1",
+  "description": "A simple event-driven finite state machine.",
+  "description_zh": "一种简单的基于事件驱动的有限状态机。",
+  "enable": "PKG_USING_MY_FSM1",
+  "keywords": [
+    "my_fsm1"
+  ],
+  "category": "system",
+  "author": {
+    "name": "edward-jw-yu",
+    "email": "edward.jw.yu@outlook.com",
+    "github": "edward-jw-yu"
+  },
+  "license": "Apache-2.0",
+  "repository": "https://github.com/edward-jw-yu/my_fsm1.git",
+  "icon": "unknown",
+  "homepage": "https://github.com/edward-jw-yu/my_fsm1.git#readme",
+  "doc": "unknown",
+  "site": [
+    {
+      "version": "v1.0.0",
+      "URL": "https://my_fsm1-1.0.0.zip",
+      "filename": "my_fsm1-1.0.0.zip"
+    },
+    {
+      "version": "latest",
+      "URL": "https://github.com/edward-jw-yu/my_fsm1.git.git",
+      "filename": "",
+      "VER_SHA": "master"
+    }
+  ]
+}
