@@ -18,7 +18,7 @@ void my_fsm1_transform(my_fsm1_pt p_fsm1, int state)
     p_fsm1->lst_state = p_fsm1->cur_state; // 保存上一次状态
     p_fsm1->cur_state = state;
 
-    rt_kprintf("[fsm1] lst_state: %d, cur_state: %d\r\n", p_fsm1->lst_state, p_fsm1->cur_state);
+    rt_kprintf("\r\n[fsm1] lst_state: %d, cur_state: %d\r\n", p_fsm1->lst_state, p_fsm1->cur_state);
 }
 
 /* 状态机处理事件 */
