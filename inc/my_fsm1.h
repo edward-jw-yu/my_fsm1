@@ -7,7 +7,7 @@ typedef struct
     int event;             // 事件
     int cur_state;         // 当前状态
     int nxt_state;         // 下一个状态
-    void (*handler)(void); // 事件处理句柄
+    void (*handler)(void *data); // 事件处理句柄
 } my_fsm1_table_t, *my_fsm1_table_pt;
 
 typedef struct
@@ -25,6 +25,6 @@ void my_fsm1_init(my_fsm1_pt p_fsm1, my_fsm1_table_pt p_fsm1_tb, int tb_size);
 void my_fsm1_transform(my_fsm1_pt p_fsm1, int state);
 
 /* 状态机处理事件 */
-void my_fsm1_handle_event(my_fsm1_pt p_fsm1, int event);
+void my_fsm1_handle_event(my_fsm1_pt p_fsm1, int event, void *data);
 
 #endif // __MY_FSM1_H__

@@ -22,7 +22,7 @@ void my_fsm1_transform(my_fsm1_pt p_fsm1, int state)
 }
 
 /* 状态机处理事件 */
-void my_fsm1_handle_event(my_fsm1_pt p_fsm1, int event)
+void my_fsm1_handle_event(my_fsm1_pt p_fsm1, int event, void *data)
 {
     if (!p_fsm1) return;
 
@@ -36,7 +36,7 @@ void my_fsm1_handle_event(my_fsm1_pt p_fsm1, int event)
             my_fsm1_transform(p_fsm1, p_fsm1->table[i].nxt_state);
             if (p_fsm1->table[i].handler)
             { // 执行事件处理函数
-                p_fsm1->table[i].handler();
+                p_fsm1->table[i].handler(data);
             }
             break;
         }
