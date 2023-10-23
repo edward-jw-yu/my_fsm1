@@ -1,6 +1,6 @@
 {
   "name": "my_fsm1",
-  "description": "A simple event-driven finite state machine.",
+  "description": "my_fsm1: A simple event-driven finite state machine.",
   "description_zh": "一种简单的基于事件驱动的有限状态机。",
   "enable": "PKG_USING_MY_FSM1",
   "keywords": [

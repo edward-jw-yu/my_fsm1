@@ -1,7 +1,7 @@
 
 # Kconfig file for package my_fsm1
 menuconfig PKG_USING_MY_FSM1
-    bool "A simple event-driven finite state machine."
+    bool "my_fsm1: A simple event-driven finite state machine."
     default n
 
 if PKG_USING_MY_FSM1
